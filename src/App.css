@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+/* Custom styles kan tilføjes her hvis nødvendigt */
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.header nav ul li {
+  cursor: pointer;
+}
+
+main {
+  padding: 2rem 0;
+}
